@@ -23,7 +23,8 @@ export default class NobbbParseOrg {
         });
         return {
             title: orgHTMLDocument.title,
-            content: orgHTMLDocument.contentHTML
+            content: orgHTMLDocument.contentHTML,
+            type: this.name
         };
     }
 }
